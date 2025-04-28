@@ -5,10 +5,13 @@ from . import strings
 app = typer.Typer()
 
 @app.command()
-def reverse_string(string: str):
+def reverse_string(string: str = typer.Argument("", help="A string to reverse")):
     """Reverse a string."""
+    if not string:
+        string = typer.prompt("Please enter a string to reverse")
     result = strings.reverse_string(string)
     print(result)
+
 
 
 @app.command()

@@ -9,6 +9,13 @@ def test_reverse_string():
     assert result.output.strip() == "olleh"
 
 
+def test_reverse_string_prompted():
+    result = runner.invoke(app, ["reverse-string"], input="world\n")
+    assert result.exit_code == 0
+    assert "Please enter a string to reverse" in result.output  # It asked for prompt
+    assert "dlrow" in result.output  # Output after prompt
+
+
 def test_is_palindrome_yes():
     result = runner.invoke(app, ["is-palindrome", "Racecar"])
     assert result.exit_code == 0
