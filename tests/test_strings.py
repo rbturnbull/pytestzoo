@@ -5,10 +5,14 @@ def test_reverse_string():
     assert strings.reverse_string("") == ""
     assert strings.reverse_string("a") == "a"
 
+
 def test_is_palindrome():
     assert strings.is_palindrome("racecar")
     assert strings.is_palindrome("A man, a plan, a canal, Panama")
     assert not strings.is_palindrome("hello")
+    assert strings.is_palindrome("tacocat")
+    assert strings.is_palindrome("tAcocaT")
+
 
 def test_count_vowels():
     assert strings.count_vowels("hello") == 2

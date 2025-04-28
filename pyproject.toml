@@ -8,6 +8,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
+    "typer (>=0.15.3,<0.16.0)"
 ]
 
 
@@ -19,3 +20,6 @@ build-backend = "poetry.core.masonry.api"
 pytest = ">=8.3.5"
 coverage = ">=7.8.0"
 
+
+[tool.poetry.scripts]
+pytestzoo = "pytestzoo.main:app"
