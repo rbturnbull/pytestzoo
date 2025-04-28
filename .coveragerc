@@ -1,0 +1,5 @@
+[run]
+source = pytestzoo
+
+[report]
+precision = 2
