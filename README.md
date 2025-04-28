@@ -1,6 +1,6 @@
-# Test Your Code
+# pytestzoo
 
-A demo repository to demonstrate testing in Python
+A demo repository to demonstrate testing in Python using `pytest` and `coverage`.
 
 ## Sayings of the wise
 
@@ -11,5 +11,43 @@ Testing is the engineering version of 'measure twice, cut once.’
 Tests are the safety net that lets you move fast without breaking things
 You can write tests now, or you can debug later — with interest
 
+## Install the dependencies
+
+```bash
+poetry install
+```
+or 
+```bash
+pip install -e .
+```
+
 ## Run the tests
+
+```bash
+pytest
+```
+
+## Run the tests with coverage
+
+```bash
+coverage run -m pytest
+```
+
+See the coverage report by:
+
+```bash
+coverage report
+```
+
+View this in HTML format:
+
+```bash
+coverage html
+```
+
+Then open the `htmlcov/index.html` file in your browser.
+
+## Credits
+
+[Robert Turnbull](https://robturnbull.com) Melbourne Data Analytics Platform (MDAP)
 
