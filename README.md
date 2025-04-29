@@ -1,6 +1,6 @@
 # pytestzoo
 
-![coverage badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/rbturnbull/8dcb24262e0971e8a9cd6336a0c628c4/raw/coverage-badge.json)](https://pytestzoo.github.io/rbturnbull/coverage/)
+[![coverage badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/rbturnbull/8dcb24262e0971e8a9cd6336a0c628c4/raw/coverage-badge.json)](https://rbturnbull.github.io/pytestzoo/)
 
 A demo repository to demonstrate testing in Python using `pytest` and `coverage`.
 
