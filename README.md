@@ -12,6 +12,7 @@ If someone breaks your code and it was untested, then you broke your code.
 Testing is the engineering version of 'measure twice, cut once.’
 Tests are the safety net that lets you move fast without breaking things
 You can write tests now, or you can debug later — with interest
+If it isn't tested, it shouldn't be in main.
 
 ## Install the dependencies
 
