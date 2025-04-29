@@ -22,11 +22,11 @@ def test_is_palindrome_yes():
     assert result.output.strip() == "Yes"
 
 
-# def test_is_palindrome_prompted():
-#     result = runner.invoke(app, ["is-palindrome"], input="hello\n")
-#     assert result.exit_code == 0
-#     assert "Please enter a string to check for palindrome" in result.output
-#     assert "No" in result.output
+def test_is_palindrome_prompted():
+    result = runner.invoke(app, ["is-palindrome"], input="hello\n")
+    assert result.exit_code == 0
+    assert "Please enter a string to check for palindrome" in result.output
+    assert "No" in result.output
 
 
 def test_is_palindrome_no():
