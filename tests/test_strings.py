@@ -6,6 +6,9 @@ def test_reverse_string():
     assert strings.reverse_string("") == ""
     assert strings.reverse_string("a") == "a"
     assert strings.reverse_string("وقال") == "لاقو"
+
+
+def test_reverse_string_errors():
     with pytest.raises(TypeError):
         strings.reverse_string(None)
     with pytest.raises(TypeError):
@@ -45,3 +48,10 @@ def test_count_vowels():
 def test_strip_accents(input_string, expected_output):
     assert strings.strip_accents(input_string) == expected_output
 
+
+def test_lowercase():
+    assert strings.lowercase("Hello World") == "hello world"
+    assert strings.lowercase("PYTHON") == "python"
+    assert strings.lowercase("123ABC") == "123abc"
+    assert strings.lowercase("") == ""
+    assert strings.lowercase("¡Hola!") == "¡hola!"

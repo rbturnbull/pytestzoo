@@ -28,3 +28,8 @@ def count_vowels(s: str) -> int:
     clean_string = ''.join(c.lower() for c in s_normalized if c.isalpha())
 
     return sum(1 for c in clean_string if c in 'aeiou')
+
+
+def lowercase(s: str) -> str:
+    """Convert the string to lowercase."""
+    return s.lower()
