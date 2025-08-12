@@ -4,7 +4,12 @@
 
 A demo repository to demonstrate testing in Python using `pytest` and `coverage`.
 
-[![Meme 1](https://i.imgflip.com/a2tvg9.jpg)](https://imgflip.com/i/a2tvg9)
+[![Disaster girl Meme](https://i.imgflip.com/a2twim.jpg)](https://imgflip.com/i/a2twim)
+[![Drake Meme](https://i.imgflip.com/a2u0ds.jpg)](https://imgflip.com/i/a2u0ds)
+[![Distracted Boyfriend Meme](https://i.imgflip.com/a2tw9o.jpg)](https://imgflip.com/i/a2tw9o)
+[![Spiderman Meme](https://i.imgflip.com/a2tvg9.jpg)](https://imgflip.com/i/a2tvg9)
+[![Spiderman Meme (with Manager)](https://i.imgflip.com/a2tztc.jpg)](https://imgflip.com/i/a2tztc)
+[![Wonka Meme](https://i.imgflip.com/a2txa6.jpg)](https://imgflip.com/i/a2txa6)
 
 
 ## Install the dependencies
